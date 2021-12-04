@@ -8,6 +8,8 @@ import { Observable } from 'rxjs';
 export class SharedService {
 
 readonly APIUrl="https://webapplication2021.azurewebsites.net/api/BooksCategory";
+readonly APIUrl="https://webapplication2021.azurewebsites.net/api/Student";
+  
 readonly PhotoUrl="http://localhost:60966/Photos";
   constructor(private http:HttpClient) { }
 
